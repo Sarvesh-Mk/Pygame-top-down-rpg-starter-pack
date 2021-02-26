@@ -24,7 +24,7 @@ class Game:
 
     def load_data(self):
         game_folder = path.dirname(__file__)
-        self.map = Map(path.join(game_folder, "map2.txt"))
+        self.map = Map(path.join(game_folder, "mapexample.txt"))
 
     def new(self):
         self.all_sprites = pygame.sprite.Group()
