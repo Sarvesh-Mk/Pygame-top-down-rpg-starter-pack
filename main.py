@@ -140,5 +140,4 @@ class Game:
 g = Game()
 while True:
     g.new()
-    #g.saveMenu.load_save()
     g.run()
