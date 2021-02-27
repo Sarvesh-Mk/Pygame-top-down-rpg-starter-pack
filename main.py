@@ -8,9 +8,6 @@ from tilemap import *
 from guis import *
 from os import path
 
-# f = open("save.txt", "w+")
-
-
 class Game:
     def __init__(self):
 
